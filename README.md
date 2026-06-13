@@ -1,137 +1,48 @@
- AI-Based-Internship-Recommendation-Engine-for-PM-Internship-Scheme
-This project helps students find the most suitable internships under the Prime Minister Internship Scheme (PMIS) using Artificial Intelligence and Machine Learning. The system analyzes a student's profile, skills, academic performance, interests, and preferred domain, then recommends the best internship opportunity
- 
-Problem Statement
-
-Many students struggle to identify internships that match their skills and interests. Existing internship portals provide numerous opportunities, making it difficult to choose the right one. This project solves the problem by using Artificial Intelligence to provide personalized internship recommendations.
-Objectives
-Recommend suitable internships based on student profiles.
-Match student skills with internship requirements.
-Reduce manual effort in internship searching.
-Improve internship selection accuracy.
-Support students participating in the PM Internship Scheme.
-
-Modules
-
-1. Student Module
-
-Student Registration
-Login
-Profile Management
-Skills and Interest Management
-2. Internship Module
-Internship Listings
-Company Details
-Internship Requirements
-
-3. Recommendation Module
-
-Skill Matching
-Internship Ranking
-Match Score Calculation
-
-4. Application Module
-
-Apply for Internships
-Track Application Status
-
-5. Admin Module
-
-Manage Students
-Manage Internships
-Generate Reports
-
-6. Support Module
-
-Feedback System
-Query Handling
-Ticket Management
-
-Input Parameters
-The recommendation system uses the following inputs:
-
-Department,
-CGPA,
-Skills,
-Certifications,
-Projects,
-Preferred Domain,
-Preferred Location,
-Internship Experience,
-Resume Information.
-
-Process Flow
-
-Student registers and logs into the system.
-Student enters profile details and skills.
-Internship data is stored in the database.
-AI algorithm compares student skills with internship requirements.
-Match scores are calculated.
-Top-ranked internships are recommended.
-Student applies for preferred internships.
-Application status is tracked.
-
-Technology Stack
-
-Frontend
-
-React.js
-HTML
-CSS
-Bootstrap
-JavaScript
-
-Backend
-
-Spring Boot
-Java
-REST API
-
-Database
-
-MySQL
-AI/ML
-Python
-Pandas
-NumPy
-Scikit-Learn
-Database Tables
-
-Student
-
-student_id
-name
-email
-department
-cgpa
-skills
-
-Internship
-
-internship_id
-company_name
-role
-required_skills
-location
-
-Recommendation
-
-recommendation_id
-student_id
-internship_id
-match_score
-Application
-application_id
-student_id
-internship_id
-
-status
-Admin
-admin_id
-username
-password
-
-7.ER Diagram:
+Students often find it difficult to identify internships that match their skills, interests, and qualifications. Manual searching through numerous internship opportunities is time-consuming and inefficient. This project uses Artificial Intelligence to analyze student profiles and recommend suitable internships under the PM Internship Scheme. The system helps students find relevant opportunities quickly and accurately.
+Problem Statement:
+     Students often struggle to find internships that match their skills, academic background, and interests. The proposed AI-based recommendation engine aims to provide personalized internship suggestions under the PM Internship Scheme, improving internship opportunities and career development.
+Project Objectives
+ 1.Collect student profile information
+	2.Analyze skills and interests using AI.
+	3.Recommend suitable internships.
+	4.Provide eligibility matching.
+	5.Improve internship selection efficiency.
+	6.Track internship applications.
+Module List:
+ Module 1: Student Management
+	  Student Registration
+   Login
+   Profile Management
+ Module 2: Internship Management
+	  Add Internship Details
+   Update Internship Information
+   View Available Internships
+	Module 3: Resume & Skill Analysis
+	  Resume Upload
+   Skill Extraction
+   Interest Identification
+	Module 4: AI Recommendation Engine
+	  Profile Analysis
+   Skill Matching
+   Internship Recommendation
+   Match Score Generation
+Module 5: Application Tracking
+   Apply for Internship
+   View Application Status
+   Application History
+Module 6: Admin Management
+   Manage Students
+   Manage Internships
+   Generate Reports
+   Monitor Applications
+Table List:
+  1. Student Table
+  2. Admin Table
+  3. Internship Table
+  4. Skills Table
+  5. Recommendation Table
+  6. Application Table
+ER Diagram:
   
               
 
@@ -220,19 +131,31 @@ password
       | match_score          |
 
       +----------------------+
-     
-
-
-8.AI Algorithm:     
+ Technologies Used
+    Frontend
+       HTML
+       CSS
+       Bootstrap
+     JavaScript
+   Backend
+     Python
+     Flask
+  Database
+     MySQL
+  AI/ML
+    Pandas
+    NumPy
+    scikit-Learn
+AI Algorithm:     
       Cosine Similarity,Content-Based Filtering,
 KNN Recommendation
 Benefits
-Personalized internship recommendations.
-Faster internship discovery.
-Better skill-to-job matching.
-Improved internship selection rate.
-Supports career growth and skill development.
-Helps students make informed career decisions
+   Personalized internship recommendations.
+   Faster internship discovery.
+   Better skill-to-job matching.
+   Improved internship selection rate.
+   Supports career growth and skill development.
+   Helps students make informed career decisions
       
 
 
