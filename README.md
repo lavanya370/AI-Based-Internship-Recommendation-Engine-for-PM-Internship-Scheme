@@ -10,28 +10,35 @@ Project Objectives
 	4.Provide eligibility matching.
 	5.Improve internship selection efficiency.
 	6.Track internship applications.
+	
 Module List:
+
  Module 1: Student Management
 	  Student Registration
    Login
    Profile Management
+   
  Module 2: Internship Management
 	  Add Internship Details
    Update Internship Information
    View Available Internships
+   
 	Module 3: Resume & Skill Analysis
 	  Resume Upload
    Skill Extraction
    Interest Identification
+   
 	Module 4: AI Recommendation Engine
 	  Profile Analysis
-   Skill Matching
-   Internship Recommendation
-   Match Score Generation
+      Skill Matching
+      Internship Recommendation
+      Match Score Generation
+	  
 Module 5: Application Tracking
    Apply for Internship
    View Application Status
    Application History
+   
 Module 6: Admin Management
    Manage Students
    Manage Internships
@@ -139,27 +146,36 @@ ER Diagram:
 
 	  
  Technologies Used
+ 
     Frontend
+	
        HTML
        CSS
        Bootstrap
      JavaScript
+	 
    Backend
+   
      Python
      Flask
   Database
-     MySQL
+  
+     MySQl
+	 
   AI/ML
+  
     Pandas
     NumPy
     scikit-Learn
 
 	
-AI Algorithm:     
+AI Algorithm:   
+
       Cosine Similarity,Content-Based Filtering,
 KNN Recommendation
 
 Benefits
+
    Personalized internship recommendations.
    Faster internship discovery.
    Better skill-to-job matching.
