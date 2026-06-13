@@ -23,12 +23,12 @@ Module List:
    Update Internship Information
    View Available Internships
    
-	Module 3: Resume & Skill Analysis
+Module 3: Resume & Skill Analysis
 	  Resume Upload
    Skill Extraction
    Interest Identification
    
-	Module 4: AI Recommendation Engine
+Module 4: AI Recommendation Engine
 	  Profile Analysis
       Skill Matching
       Internship Recommendation
@@ -147,31 +147,24 @@ ER Diagram:
 	  
  Technologies Used
  
-    Frontend
-	
-       HTML
-       CSS
-       Bootstrap
+    Frontend:
+      HTML
+      CSS
+      Bootstrap
      JavaScript
 	 
-   Backend
-   
-     Python
-     Flask
+   Backend:
+    Python
+    Flask
   Database
-  
-     MySQl
-	 
+   MySQl
   AI/ML
-  
-    Pandas
-    NumPy
-    scikit-Learn
-
-	
+   Pandas
+   NumPy
+   scikit-Learn
+   
 AI Algorithm:   
-
-      Cosine Similarity,Content-Based Filtering,
+     Cosine Similarity,Content-Based Filtering,
 KNN Recommendation
 
 Benefits
