@@ -118,6 +118,108 @@ This project helps students find the most suitable internships under the Prime M
         NumPy
 
         Scikit-learn
+
+
+5. Database Tables:
+    
+
+    Student:
+
+          student_id
+
+          name
+
+          email
+
+          department
+
+          cgpa
+
+          skills
+
+
+     Internship:
+
+          internship_id
+
+          company_name
+
+          role
+
+          required_skills
+
+          location
+
+          duration
+   
+      
+      Recommendation:
+
+            recommendation_id
+
+            student_id
+
+            internship_id
+
+            match_score
+
+    
+      Application:
+
+            application_id
+
+            student_id
+
+            internship_id
+
+            status
+
+
+6.Use Case Actors:
+    
+      Student=>
+
+            Register
+
+            Login
+
+            Update Profile
+
+            View Recommendation
+
+            Apply Internship
+ 
+       Admin=>
+
+             Manage Students
+ 
+             Manage Internships
+
+             View Reports
+
+             Monitor Recommendations
+ 
+
+ 7.Working Flow
+      
+
+
+         Student Registration
+                ↓
+         Profile & Skills Entry
+                ↓
+         Data Preprocessing
+                ↓
+         AI Recommendation Model
+                ↓
+         Internship Matching
+                ↓
+        Top Recommended Internships
+                ↓
+        Application Tracking
+              
+  
+     
           
       
       
