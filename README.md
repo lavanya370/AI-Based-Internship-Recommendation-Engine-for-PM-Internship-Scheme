@@ -4,45 +4,24 @@ This project helps students find the most suitable internships under the Prime M
 
 
 1. Problem Statement:
-
-        
-         Students often struggle to find internships that match their skills and career goals. Manual searching is time-consuming and may result in unsuitable applications. An AI-powered system can automatically recommend the most relevant internships.
+        Students often struggle to find internships that match their skills and career goals. Manual searching is time-consuming and may result in unsuitable applications. An AI-powered system can automatically recommend the most relevant internships.
 
 
 
 2. Project Objective:
-
-
           =>Recommend suitable internships to students.
-          
-         =>Match student skills with internship requirements.
-
-
+          =>Match student skills with internship requirements.
          =>Increase internship selection chances.
-       
-         =>Reduce manual effort in searching internships.
-
-
-         =>Provide personalized recommendations.
-
-
-
+        =>Reduce manual effort in searching internships.
+        =>Provide personalized recommendations.
 3. Modules:
-
-
 >Module 1: Student Management
-
-         Student Registration
-
-         Login Authentication
-
-         Profile Creation
-
-         Skill Entry
-
+        Student Registration
+        Login Authentication
+        Profile Creation
+        Skill Entry
 >Module 2: Internship Management
-
-          Add Internship Details
+        Add Internship Details
 
           Company Information
 
