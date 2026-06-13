@@ -217,8 +217,55 @@ This project helps students find the most suitable internships under the Prime M
         Top Recommended Internships
                 ↓
         Application Tracking
-              
+
+8.ER Diagram:
   
+              
+
+
+department     |
+| cgpa           |
+| skills         |
++----------------+
+         |
+         | 1
+         |
+         | M
++-------------------+
+| APPLICATION       |
++-------------------+
+| application_id(PK)|
+| student_id(FK)    |
+| internship_id(FK) |
+| status            |
++-------------------+
+         |
+         | M
+         |
+         | 1
++----------------+
+| INTERNSHIP     |
++----------------+
+| internship_id  |
+| company_name   |
+| role           |
+| required_skill |
+| duration       |
+| location       |
++----------------+
+
+         |
+         | 1
+         |
+         | M
++----------------------+
+| RECOMMENDATION       |
++----------------------+
+| recommendation_id(PK)|
+| student_id(FK)       |
+| internship_id(FK)    |
+| match_score          |
++----------------------+
      
           
       
