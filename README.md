@@ -1,6 +1,8 @@
 Students often find it difficult to identify internships that match their skills, interests, and qualifications. Manual searching through numerous internship opportunities is time-consuming and inefficient. This project uses Artificial Intelligence to analyze student profiles and recommend suitable internships under the PM Internship Scheme. The system helps students find relevant opportunities quickly and accurately.
+
 Problem Statement:
      Students often struggle to find internships that match their skills, academic background, and interests. The proposed AI-based recommendation engine aims to provide personalized internship suggestions under the PM Internship Scheme, improving internship opportunities and career development.
+	 
 Project Objectives
  1.Collect student profile information
 	2.Analyze skills and interests using AI.
@@ -35,6 +37,7 @@ Module 6: Admin Management
    Manage Internships
    Generate Reports
    Monitor Applications
+   
 Table List:
   1. Student Table
   2. Admin Table
@@ -42,6 +45,8 @@ Table List:
   4. Skills Table
   5. Recommendation Table
   6. Application Table
+
+	 
 ER Diagram:
   
               
@@ -131,6 +136,8 @@ ER Diagram:
       | match_score          |
 
       +----------------------+
+
+	  
  Technologies Used
     Frontend
        HTML
@@ -146,9 +153,12 @@ ER Diagram:
     Pandas
     NumPy
     scikit-Learn
+
+	
 AI Algorithm:     
       Cosine Similarity,Content-Based Filtering,
 KNN Recommendation
+
 Benefits
    Personalized internship recommendations.
    Faster internship discovery.
