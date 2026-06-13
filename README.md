@@ -310,7 +310,7 @@ This project helps students find the most suitable internships under the Prime M
      
 
 
-10.AI Algorithm:
+9.AI Algorithm:
    
         
           
