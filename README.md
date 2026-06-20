@@ -279,16 +279,6 @@ npm run build
 
 ---
 
-## Author
-
-**Sujeeth Sakthivel**
-
-GitHub: https://github.com/sujeeth-gounder
-
-LinkedIn: https://www.linkedin.com/in/sujeeth-sakthivel-314304378
-
----
-
 ## License
 
 This project is developed for educational and academic purposes.
