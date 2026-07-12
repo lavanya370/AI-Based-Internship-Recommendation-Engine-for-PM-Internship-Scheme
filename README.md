@@ -1,5 +1,7 @@
 # AI Internship Recommendation Engine
 
+##live demo:https://ai-based-internship-recommendation-p7mn.onrender.com
+
 ## Overview
 
 The AI Internship Recommendation Engine is a web-based application designed to help students find the most suitable internship opportunities based on their skills, education, interests, preferred location, language preferences, and work mode. The system analyzes user profiles and recommends internships using a scoring-based recommendation algorithm.
